@@ -1,7 +1,28 @@
 ![Alt text](qrcode.png)
 
+# QR Code Generator using Streamlit
 
-This program is a simple QR code generator built using Streamlit and PyQRCode. It provides users with a convenient interface to generate QR codes from URLs they input. Users can specify the URL, choose between generating a QR code in SVG or PNG format, and adjust the scale of the QR code using a slider. Once the user clicks the 'Generate QR Code' button, the program creates the QR code based on the specified parameters and displays it on the interface. Additionally, it gives a success message confirming the generation of the QR code along with the filename for easy identification and retrieval.
+This Python application creates QR codes from provided URLs using Streamlit, a web application framework. Users can input a URL, select the file type (SVG or PNG), and adjust the scale of the generated QR code.
+
+## Features
+- **Input:** Allows users to enter a URL for which they want to generate a QR code.
+- **File Type Selection:** Provides options to save the QR code as SVG or PNG.
+- **Scaling:** Allows users to adjust the size of the QR code using a slider.
+- **Generation:** Generates and displays the QR code based on user inputs.
+- **Output:** Shows the generated QR code along with a success message displaying the filename.
+
+## Technologies Used
+- **Streamlit:** Utilized for building the user interface and interactive elements.
+- **PyQRCode:** Used to generate QR codes based on the provided URL.
+
+## How to Use
+1. Clone the repository.
+2. Install the necessary dependencies (`streamlit`, `pyqrcode`).
+3. Run the application using `streamlit run filename.py`.
+4. Input the URL, select the file type and scale, then click on "Generate QR Code".
+5. The generated QR code will be displayed along with the filename.
+
+Feel free to contribute, suggest improvements, or use this as a base for your QR code generation projects!
 
 
 
